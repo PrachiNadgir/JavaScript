@@ -35,3 +35,25 @@ console.log(typeof myObj);//returns object
 console.log(typeof id);//returns object
 
 
+// ***************************************************
+/*Two types of memory - stack , heap
+stack(primitive)  heap(non primitive)
+whenever you declare a variable in primtive type , you get the copy of value
+whenever you declare a variable in non primtive type , you get the original variable*/
+
+let name1="prachi";
+let name2 = name1;
+name2 = "rashi"
+console.log(name1);
+console.log(name2);
+
+let my={email:"xyz@yahoo.com",
+    upi:"xyz@axl"
+}
+let my1=my
+my1.email="xyz@gmail.com";
+console.log(my1.email);
+console.log(my.email);
+
+
+
