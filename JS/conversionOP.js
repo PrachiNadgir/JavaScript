@@ -25,5 +25,56 @@ let isaccountBoolean = Boolean(account)
 //Any datatype to String conversion
 let accounts = 47;
 let isaccountsString = String(accounts)
-console.log(typeof isaccountsString);
-console.log(isaccountsString); // any num = string , any num ;  null = string, null ; undefined = string, undefined
+// console.log(typeof isaccountsString);
+// console.log(isaccountsString); // any num = string , any num ;  null = string, null ; undefined = string, undefined
+
+
+// ***************operation*******************
+let value = 4;
+let negvalue = -value;
+console.log(negvalue);
+//Arithmetic op 
+// console.log(2+2);//add
+// console.log(2-2);//sub
+// console.log(2*2);//mul
+// console.log(2**3);//power
+// console.log(2/2);//div
+// console.log(2%2);//rem
+let str1 = "hello";
+let str2 = " guys";
+console.log(str1 + str2);
+
+// console.log("1"+2);//left associativity
+// console.log(1+"2");//left associativity
+// console.log("1"+2+2);//left associativity
+// console.log(1+2+"2");//left associativity
+// console.log(1+"2"+2);//left associativity
+
+console.log(+true);
+console.log(+"");
+
+let num1,num2,num3;
+num1 = num2 = num3 = 2+2
+// console.table([num1,num2,num3]);
+
+
+// let gamecounter = 100;
+// //gamecounter++;
+// ++gamecounter;
+// console.log(gamecounter);
+
+
+let x = 3;
+const y = ++x;
+console.log(x,y);
+//if incremental or decremental is standalone then it returns the incremental or decremental value , else it returns the value as per standards
+// x is 4; y is 3
+
+let x2 = 3n;
+const y2 = x2++;
+console.log(x2,y2);
+// x2 is 4n; y2 is 3n
+
+
+
+ 
