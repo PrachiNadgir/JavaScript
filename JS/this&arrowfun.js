@@ -42,4 +42,4 @@ const user = {
 //     //     return a+b
 //     console.log(addtwo(2,3))
 const addtwo = (a,b)=>({username:"Prachi"})//with and without curly braces
-console.log(addtwo(2,3))
+//console.log(addtwo(2,3))
