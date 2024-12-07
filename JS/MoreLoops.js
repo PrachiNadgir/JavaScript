@@ -56,3 +56,22 @@ const books = [
 
 ]
 console.log(books)
+
+
+//-------------------------------------------------
+const numbers = [2,4,6,8,10,12,14,16]
+// const num = numbers.map( (num) => num+10 )
+// console.log(num);
+
+// const nums = []
+// numbers.map((num)=>{
+//     if(num>0){
+//         nums.push(num+10)
+//     }
+// })
+// console.log(nums)
+
+//---chaining-multiple maps ,filters can be used
+const counts = numbers.map((num)=>num*10).map((num)=>num-1).filter((num)=>num>=40)
+console.log(counts)
+ 
