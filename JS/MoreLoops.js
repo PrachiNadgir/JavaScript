@@ -1,10 +1,10 @@
-// const coding = ["JS","RUST",'CPP','Ruby on Rails']
-// const values = coding.forEach( (item) => {
-//     console.log(item);
-//     return item   so foreach loop didnt return any value
+const coding = ["JS","RUST",'CPP','Ruby on Rails']
+const values = coding.forEach( (item) => {
+    console.log(item);
+    return item  // so foreach loop didnt return any value
     
-// })
-// console.log(values);
+})
+console.log(values);
 //filter
 
 const mynum =[1,2,3,4,5,6,7,8,9,10]

@@ -61,7 +61,7 @@ const myobj = {
     //foreach loop
     const coding = ["JS","RUST",'CPP','Ruby on Rails']
     // coding.forEach( function (item){
-    //     console.log(item)
+        // console.log(item)
     // })
     // coding.forEach( (item) => {
     //     console.log(item)

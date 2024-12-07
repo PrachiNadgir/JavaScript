@@ -35,8 +35,8 @@ JsUser.greeting1=function(){
     console.log(`Hello nice to meet you:${this.name}`);
     
 }
-// console.log(JsUser.greeting());
-// console.log(JsUser.greeting1());
+console.log(JsUser.greeting());
+console.log(JsUser.greeting1());
 
 //*************Objects part2**************
 
@@ -91,11 +91,11 @@ const user = [
     }
 ]
 console.log(user[1].id)
-console.log(gameStoreUser)
-console.log(Object.keys(gameStoreUser))//datatype array
-console.log(Object.values(gameStoreUser))//datatype array
-console.log(Object.entries(gameStoreUser))//datatype array
-console.log(gameStoreUser.hasOwnProperty("isLoggedIn"))
+// console.log(gameStoreUser)
+// console.log(Object.keys(gameStoreUser))//datatype array
+// console.log(Object.values(gameStoreUser))//datatype array
+// console.log(Object.entries(gameStoreUser))//datatype array
+// console.log(gameStoreUser.hasOwnProperty("isLoggedIn"))
 
 
 
